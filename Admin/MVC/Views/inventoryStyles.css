@@ -1,0 +1,203 @@
+ .inventoryBody {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .userIdentity {
+            width: 100%; /* Fixed width */
+            padding: 4px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            overflow-x: auto; /* Enable horizontal scrolling if necessary */
+            background-color: #f2dede; /* Light Red */
+            height: 40px; /* Fixed height */
+            display: flex; /* Use flexbox */
+            align-items: center; /* Align items vertically center */
+        }
+    .inventoryList {
+    width: 50%;
+    height: 960px ;
+    float: left;
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: auto;
+  }
+
+  .inventoryOperations {
+    width: 49%;
+    float: left;
+    height: 960px ;
+    background-color: lightgreen;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 3px;
+    overflow-x: auto;
+  }
+  .inventoryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  .inventoryTable th, .inventoryTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .inventoryTable th {
+    background-color: #f2f2f2;
+  }
+
+  .inventoryTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  /* Style for Description column */
+  .inventoryTable td.description {
+    width: 200px; /* Set a fixed width for the column */
+    overflow: hidden; /* Hide overflowing content */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+  } 
+
+  .inventoryOperations {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  /* Style for the search form */
+  #searchForm {
+    margin-bottom: 15px;
+  }
+
+  #searchForm label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  #searchForm input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  #searchForm button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  #searchForm button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style for the search results container */
+  #searchResults {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+
+  /* Style for input fields */
+  .inputField {
+    margin-bottom: 10px;
+  }
+
+  /* Style for labels */
+  .inputField label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+   .inventoryOperations {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  /* Style for the search form */
+  #searchForm {
+    margin-bottom: 15px;
+  }
+
+  #searchForm label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  #searchForm input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  #searchForm button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  #searchForm button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style for the search results container */
+  #searchResults {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-bottom: 15px;
+  }
+
+  /* Style for input fields */
+  .inputField {
+    margin-bottom: 10px;
+  }
+
+  /* Style for labels */
+  .inputField label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+
+  /* Style for buttons */
+  .operationButtons button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .operationButtons button:hover {
+    background-color: #218838;
+  }

@@ -1,0 +1,82 @@
+
+.userIdentity {
+    width: 100%; /* Fixed width */
+    padding: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    background-color: #f2dede; /* Light Red */
+    height: 40px; /* Fixed height */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically center */
+}
+
+.HospitalSetupBody {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+
+.SetupBody {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    border: 1px solid #000; /* Example border */
+    margin-bottom: 10px; /* Adjust spacing between boxes */
+    border-radius: 8px;
+}
+
+.ChosenOperation {
+    width: 55%;
+    height: 940px;
+    background-color: lightblue; /* Example background color for ChosenOperation */
+    border-radius: 8px;
+    float: right;
+    padding: 20px;
+}
+
+.ChosenSetup {
+     width: 38%;
+    height: 940px;
+    background-color:#f2dede; /* Example background color for ChosenSetup */
+    border-radius: 8px;
+    float: left;
+    padding: 20px;
+}
+.setupButton {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 5px 0 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue background color for setupButton */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.setupButton:hover {
+    background-color: #0056b3; /* Darker blue on hover for setupButton */
+}
+
+.ChosenOperation button {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 5px 0 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Green background color for buttons in ChosenOperation */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.ChosenOperation button:hover {
+    background-color: #218838; /* Darker green on hover for buttons in ChosenOperation */
+}
