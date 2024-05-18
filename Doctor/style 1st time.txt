@@ -1,0 +1,68 @@
+////style////
+
+
+
+*{
+	box-sizing: border-box;
+}
+body{
+
+	margin: 0;
+
+	.head1{
+				float: left;
+				color: Turquoise;
+				padding: 10px;
+				margin: 0;
+				text-align: left;
+		}
+.nav{
+	background-color: lightblue;
+	padding: 3% 8%;
+	text-align: center;
+	
+
+		}
+		.Graph{
+			padding-top: 1px;
+			padding left: 10px;
+			text-align: right;
+			margin-left: 1px;
+		}
+		.table{
+			text-align: top;
+		}
+
+
+
+
+	}
+	.search{
+		
+	padding: 10px;
+    position: relative;
+    text-align: left;
+
+	}
+	.searchbtn{
+  border: none;
+  color: lightblue;
+  padding left: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+    cursor: pointer;
+
+	}
+	.border{
+		color: lightblue;
+	}
+	a{
+    color: lightblue;
+    font-size: 2rem;
+    text-decoration: none;	
+	text-align: right;
+
+}

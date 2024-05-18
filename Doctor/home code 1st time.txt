@@ -1,0 +1,79 @@
+<?php
+if(isset($_POST['name'])){
+	header("location:home.php");
+}
+if (isset($_POST['abt'])) {
+	header("location:About.php");
+}
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOCTOR HOME</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+<body>
+	<form method="post">	
+	
+	<div class ="nav">
+
+	<div class="head1">
+	<h1>
+		<img align="left" src="capture.png">WELCOME DR ISMAM
+	</h1>
+	</div>
+
+		<div class="nav-bar">
+		<button name ="home">HOME</button>
+		<button name="abt">ABOUT</button>
+		<button name="appoint">APPOINMENT</button>
+		<button name="rev">REVIEWS</button>
+		<button name="con">CONTACT US</button>
+		<a href="http://localhost/Project/login.php"> LOGIN </a>
+	</div>
+		</div>
+	</form>
+	<br>
+	<br>
+	
+	
+	<div class="search">
+    <input type="text" name="patientsearch" placeholder="Patient Name:">
+    <input type="text" name="AgeSearch" placeholder="Age">
+    <div class ="searchbtn">
+    	<button name="Srcbtn"><span>??</span> SEARCH</button>
+    </div>
+
+	</div>
+	<h1>GENDER</h1>
+	MALE:<input type="radio" name="MALE"><br>
+	FEMALE:<input type="radio" name="FEMALE">
+	        <hr class="dotted-hr">       
+
+	<br>
+	<br>
+	<div class="table">
+<form method="post">
+	<table border="3" bordercolor="lightblue">
+		<tr>
+	<th>No.</th>
+	<th>Patient Name</th>
+	<th>Age</th>
+</tr>
+	</table>
+</form>
+</div>
+	<div class="Graph">
+		<img src="Graph.png">
+		
+	</div>
+	
+
+
+</body>
+</html>

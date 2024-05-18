@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+
+}
+.nav{
+	background-color: white;
+	margin: 10px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h1{
+	color: lightblue;
+	text-align: center;
+}
+h1.hh{
+	color: black;
+}
+a{
+	text-decoration: none;
+	border: none;
+	margin: 10px;
+
+
+}
+
+a:hover{
+	background-color: darkblue;
+	color: white;
+}
+a:active{
+	background-color: black;
+}
+.Graph{
+	margin: 10px;
+	padding: 10px;
+	float: right;
+}
+.appslot.hhh{
+	color: lightblue;
+	
+}
+.to{
+	float: right;
+}
+.np{
+	float: right;
+	justify-content: center;
+}

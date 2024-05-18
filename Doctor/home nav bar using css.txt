@@ -1,0 +1,54 @@
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+li {
+  float: right;
+}
+
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #coral;
+}
+.heading{
+	text-align: center;
+	color: Turquoise;" 
+}
+</style>
+</head>
+<body>
+	<div class="heading">
+	<h3>WELCOME DR ISMAM</h3>
+</div>
+<form method="post">
+	
+	<ul>
+	<li><a href="login.php"> Log-In </a></li>
+  <li><a href="#home"><button>HOME</button></a></li>
+  <li><a href="#about"><button>ABOUT</button></a></li>
+  <li><a href="#appoinment"><button>APPOINMENT</button></a></li>
+  <li><a href="#reviews"><button>REVIEWS</button></a></li>
+  <li><a href="#contact us"><button>CONTACT US</button></a></li>
+</ul>
+</form>
+
+
+
+</body>
+</html>
+
+
